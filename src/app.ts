@@ -7,7 +7,7 @@ const PORT = process.env.PORT ?? 8080
 // creando rutas
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
     //res.send('Hello World')
-    res.json({message: 'Hello world'})
+    res.json({ message: 'Hello world' })
 })
 
 app.listen(PORT, () => {
